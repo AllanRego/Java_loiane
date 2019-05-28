@@ -1,0 +1,23 @@
+package br.ufrn.imd.java;
+
+import java.util.Scanner;
+
+public class Array {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int[] vetorA = new int[5];
+		int[] vetorB = new int[vetorA.length];
+		
+		for(int i=0; i<vetorA.length; i++) {
+			
+			System.out.println("Entre com o valor da posição: " + i);
+			vetorA[i] = scan.nextInt();
+		}
+		
+	}
+
+}
+
