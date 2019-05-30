@@ -20,7 +20,7 @@ Scanner scan = new Scanner(System.in);
 			vetorB[i] = vetorA[i];
 		}
 		
-		System.out.print("Vetsor A = ");
+		System.out.print("Vetor A = ");
 		for(int i=0; i<vetorA.length; i++) {
 			System.out.print(vetorA[i] + " ");
 		}
@@ -31,6 +31,8 @@ Scanner scan = new Scanner(System.in);
 			System.out.print(vetorB[i] + " ");		
 		}
 		System.out.println();
+		
+		scan.close();
 	}
 }
 
