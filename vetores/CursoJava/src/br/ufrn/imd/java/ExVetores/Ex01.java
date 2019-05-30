@@ -1,12 +1,11 @@
-package br.ufrn.imd.java;
+package br.ufrn.imd.java.ExVetores;
 
 import java.util.Scanner;
 
-public class Array {
+public class Ex01 {
 
 	public static void main(String[] args) {
-		
-		Scanner scan = new Scanner(System.in);
+Scanner scan = new Scanner(System.in);
 		
 		int[] vetorA = new int[5];
 		int[] vetorB = new int[vetorA.length];
@@ -35,4 +34,4 @@ public class Array {
 	}
 }
 
-
+	
